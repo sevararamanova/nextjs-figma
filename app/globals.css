@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  width: 1440px;
+  height: auto;
+  margin: 0px auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+.navbar__logo  {
+  height: 40px;
+}
+.navbar__logo {
+  display: flex;
+}
+
+.navbar__links a {
+  margin-left: 20px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.navbar__language {
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar__language label {
+  margin-right: 10px;
+}
+#hireMe  {
+  margin-left: 20px;
+ 
+}
+.hero {
+ 
+}
+.hero__display{
+  display: flex;
+  justify-content: space-between;
+ 
+  
+} 
+.hero__img {
+  position: relative;
+}
+ .hero__img Image{
+ position: absolute;
+ left: 10px;
+  
+
+}
+
+/* 
+#img1{
+  z-index: 10;
+  position: absolute;
+  left:3px;
+  top:60px;
+}
+
+#img2{
+  z-index: 30;
+  left:70px;
+  position: absolute;
+} */
+
+#img1{
+  z-index:10;
+  position: absolute;
+  left: 3px;
+  top:60px;
+}
+
+#img2{
+  z-index: 30;
+  position: relative;
+  top:40px;
+  
+}
+
+.hero__txt{
+  margin-top: 100px;
+}
+.hero__txt span{
+  margin-top: 100px;
+  font-size: 50px;
+  font-weight: 800;
+ 
+}
+
+#red{
+ color: #D05270;
+}
+
+.p{
+color:rgba(128, 128, 128, 0.724);
+font-size: 14px;
+margin-top: 30px;
+}
+
+.btnLinks {
+  margin-top: 80px;
+  display: flex;
+  gap:20px;
+  width: 300px;
+  height: 45px;
+}
+
+
+.card {
+  margin-top: 200px;
+ 
+}
+
+.cards__a {
+  display: flex;
+  gap:40px;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #424242;
+
+}
+cards__a a:hover {
+  color: #D05270;
+  text-decoration: underline;
+}
+.cards {
+ 
+  margin-top: 100px;
+  display: grid; /* Switch to grid layout */
+  grid-template-columns: repeat(2, 2fr); /* Create 2 equal columns */
+ 
+}
+
+.cards__one {
+  margin-bottom: 70px;
+  line-height: 24px;
+  justify-content: space-between;
+  border: 1px solid #ddd; /* Optional: add a border for better visualization */
+  padding: 6px; /* Optional: add some padding inside each card */
+  background-color: #fff; /* Optional: set a background color for cards */
+}
+
+/* .cards__one {
+   display: flex;
+   justify-content:space-between;
+  margin-bottom: 70px;
+  display: inline-block;
+  line-height: 24px;
+} */
+
+h3 {
+  color: #d40838;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+ 
+}
+
+p{
+  color:grey;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+
+.cards__one a{
+  color: #d40838;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+
+.umumiy {
+ display: flex;
+ gap:90px;
+ justify-content: space-around;
+
+}
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
